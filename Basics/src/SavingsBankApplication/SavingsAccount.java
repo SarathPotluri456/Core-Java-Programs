@@ -1,5 +1,5 @@
 package SavingsBankApplication;
-import java.util.*;
+import java.util.Scanner;
 public class SavingsAccount implements AccountContents, StigentechBank {
        Scanner sc=new Scanner(System.in);
        Customer cus=new Customer();
@@ -22,10 +22,13 @@ public class SavingsAccount implements AccountContents, StigentechBank {
           cus.setAddress(Addr);
         System.out.println("Please Enter Age"); 
          int age=sc.nextInt();
+         cus.setAge(age);
         System.out.println("Please Enter Gender");
         String gender=sc.next();
+        cus.setGender(gender);
         System.out.println("Please Enter Mobile Number");
         long mobi=sc.nextLong();
+        cus.setMobiNo(mobi);
         }
 
 	@Override
