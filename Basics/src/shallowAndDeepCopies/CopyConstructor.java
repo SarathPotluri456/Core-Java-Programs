@@ -15,7 +15,7 @@ public class CopyConstructor {
 		
 	}
 	
-	public static void main(String []args)
+	public  static void main(String []args)
 	{
 		CopyConstructor c1=new CopyConstructor(20,30);
 		CopyConstructor c2=new CopyConstructor(c1);
